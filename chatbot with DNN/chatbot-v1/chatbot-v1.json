@@ -1,0 +1,39 @@
+{"intents": [
+        {"tag": "cumprimentos_1",
+         "patterns": ["Olá", "Oi", "Eae", "Koe", "Tem alguem ai?", "Bom dia!", "Boa tarde!", "Boa noite!"],
+         "responses": ["Ola", "Oi", "Oiii", "Eae", "Bom te ver de novo!", "Ola, como posso te ajudar?"],
+         "context_set": ""
+        },
+        {"tag": "cumprimentos_2",
+         "patterns": ["Tudo bem?", "Tudo bom?", "Tudo Joia?", "Joia?", "Como você está?", "Tudo tranquilo?"],
+         "responses": ["Tudo bem! E com você ?", "Tudo bom! E com você ?", "Tudo joia! E com você ?" ,"Tudo ótimo! s2",
+                       "Tudo joia!", "Tudo bom!", "Joia. E contigo?", "Estou bem! E com você?", "Estou bem", "Tranquilo",
+                       "Melhor agora! s2", "Melhor agora! E com você?"],
+         "context_set": ""
+        },
+        {"tag": "cumprimentos_3",
+         "patterns": ["Estou bem", "Melhor agora", "Tudo joia", "Tranquilo", "Tudo bom", "Tudo tranquilo", "Tudo ótimo"],
+         "responses": ["Que boa notícia!", "Que bom =)", "Maravilhoso! s2", "Ótimo! Me pergunte alguma coisa?",
+                       "Que bom! Vamos conversar mais.", "Me conte algo engraçado.", "Como foi seu dia hoje?",
+                       "Me conte uma novidade!", "Quero saber das notícias!"],
+         "context_set": ""
+        },
+        {"tag": "Adeus",
+         "patterns": ["Adeus", "Te vejo depois", "Tchau", "Estou saindo", "Tenha um bom dia", "Depois conversamos mais"],
+         "responses": ["Triste ver você ir :(", "Vamos conversar mais na próxima", "Tchau!", "Adeus!", "Fique mais um pouco =(",
+                       "Volte logo viu! s2", "Estarei te esperando! s2", "Tenha um bom dia!"],
+         "context_set": ""
+        },
+        {"tag": "idade",
+         "patterns": ["quantos anos", "sua idade", "qual é a sua idade", "idade"],
+         "responses": ["Eu tenho 18 anos!", "Sou jovem! Tenho 18 apenas.", "18!!!"],
+         "context_set": ""
+        },
+        {"tag": "nome",
+         "patterns": ["qual é seu nome", "como devo te chamar", "seu nome"],
+         "responses": ["Pode me chamar de Amelia", "Sou Amelia.", "Meu nome é Maria Amelia de Matos.", "Amelia! =).",
+                       "Me chame de Amelia! s2"],
+         "context_set": ""
+        }
+   ]
+}
